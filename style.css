@@ -1,90 +1,180 @@
-html{
-	height: 100%;
+html
+{
+    height: 100%;
 }
-body{
-	height: 100%;
-	background: #7DB8C6;
+body
+{
+    height: 100%;
+    background: #7DB8C6;
 }
-.col-md-6{
-	-webkit-animation-delay: 1.5s; /* Chrome, Safari, Opera */
+.col-md-6
+{
+    -webkit-animation-delay: 1.5s; /* Chrome, Safari, Opera */
     animation-delay: 1.5s;
 }
-.logo{
-	padding: 50px 0;
-	width: 200px;
+.logo
+{
+    padding: 50px 0;
+    width: 200px;
 }
-.date{
-	background: #ED906B;
-	padding: 10px 30px;
-	border:3px solid white;
-	border-radius: 20px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	color: white;
-	font-family: 'Oswald', sans-serif;
+.date
+{
+    background: #ED906B;
+    padding: 10px 30px;
+    border: 3px solid white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    color: white;
+    font-family: 'Oswald' , sans-serif;
 }
-.date:hover{
-	background: #C25429;
-	border:3px solid white;
-	color: white;
+.date:hover
+{
+    background: #C25429;
+    border: 3px solid white;
+    color: white;
 }
 
-.inputLogo{
-	width: 100px;
-	margin-bottom: -18px;
+.inputLogo
+{
+    width: 100px;
+    margin-bottom: -18px;
 }
-.infoHolder{
-	background: white;
-	width: 100%;
-	padding: 26px 0 10px 0px;
-	min-width: 100px;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	float: right;
+.infoHolder
+{
+    background: white;
+    width: 100%;
+    padding: 26px 0 10px 0px;
+    min-width: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    float: right;
 }
-.infoHolder p{
-	color: #32656D;
-	letter-spacing: 1px;
-	text-align: center;
-	font-family: 'Oswald', sans-serif;
+.infoHolder p
+{
+    color: #32656D;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Oswald' , sans-serif;
 }
-.spacer{
-	margin: 40px 0 0 0;
+.spacer
+{
+    margin: 40px 0 0 0;
 }
-.note{
-	text-align: center;
-	color: white;
+.note
+{
+    text-align: center;
+    color: white;
 }
 .footer
 {
-    color:#fff;
+    color: white;
     font-size: small;
-    margin:0 100px 0 100px;
+    float: right;
+    font-family: "Inconsolata", Monospace;
+    margin-right: 50px;
+    
 }
-.footerHead{
-    color:#fff;
-     margin: 100px 100px 0 100px;
+.footerHead
+{
+    color: #fff;
+    margin: 100px 100px 0 100px;
 }
-#map-canvas{
-	width: 90%;
+#map-canvas
+{
+    width: 90%;
     height: 200px;
     display: block;
     margin: 10px auto;
     border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
-#map-canvas-dinner{
-	width: 90%;
+#map-canvas-dinner
+{
+    width: 90%;
     height: 200px;
     display: block;
     margin: 10px auto;
     border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.fa-info-circle
+{
+        color: #23527c !important;
+        font-size: 2em !important;
+        position: relative;
+        left: 205px;
+        bottom: 37px;        
+}
+a.fa-github
+{
+    font-size: 4em;
+    color: Black !important;
+    float: right;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: -4px;
+}
+.logos
+{
+    margin: 10px;
+    margin-top: -25px;
+    float: right;
+    height: 75px;
+}
+a.tooltip
+{
+    outline: none;
+    opacity: 100;
 }
 
-.footer a {
-    color:#32656D
+a.tooltip:hover
+{
+    text-decoration: none;
+}
+a.tooltip span
+{
+    z-index: 10;
+    display: none;
+    padding: 14px 20px;
+    margin-top: -264px;
+    margin-left: -114px;
+    width: 300px;
+    line-height: 16px;
+    font-size: 14px;
+}
+a.tooltip:hover span
+{
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid #DCA;
+    background: #fffAF0;
+    top: -19px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.callout
+{
+    z-index: 20;
+    position: absolute;
+    top: 246px;
+    border: 0;
+    left: 298px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+
+.footer a
+{
+    color: #32656D;
 }

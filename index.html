@@ -7,12 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/animate.css">
 
         <!-- Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
         <!-- Get Scripts -->
@@ -229,9 +230,9 @@
 			}
 
 			//show map
-			
-			google.maps.event.addDomListener(window, 'load', initialize);
 
+			google.maps.event.addDomListener(window, 'load', initialize);
+			
 		</script>
 		
 		</head>
@@ -271,17 +272,54 @@
 				<div class="row spacer">
 					<p class="note">*Bring your own supplies and date.</p>
 				</div>
-                <div class="row spacer">
+                <div class="row spacer"></div>
+                <div class="row spacer"></div>
+                <div class="row spacer"></div>
+                    <div class="row spacer">
+                        <div class="footer">
+                            <span>Datefort brought to you by...<a href="#" class="tooltip"><i class="fa fa-info-circle"></i><br />                            
+                            <span>
+                                <img class="callout" src="img/callout.gif" />
+                                <h2>About Datefort</h2><br />
+                                <p>Datefort was developed during the <strong>Hackfort 2015 hackathon</strong> by indepedent coders, using City of Boise and Yelp data.</p><br />
+                                <p>The City of Boise is hosting the app, but is not responsible for its content. Learn more about Hackfort, read our full disclaimer and view the code on Github with links below.</p>
+                            </span>
+                        </a></span>
+                        </div></div>
+                        <div class="row spacer">
+                            <a class="fa fa-github" href="https://github.com/BoiseOpenData/hackfort-datefort"></a> 
+                            <a href="https://opendata.cityofboise.org"><img class="logos" src="img/BoiseSeal.png" /></a>
+                            <a href="http://treefortmusicfest.com/hackfort"><img class="logos" src="img/hackfort2_logo.png" /></a>
+                    
+                        </div>
           
-                       <p class="footerHead">NOTE:</p>
-                          <p class="footer"> Datefort was developed during the Hackfort 2015 hackathon by indepedent coders, using <a href="//cityofboise.org" >City of Boise</a> and <a href="//yelp.com" >Yelp</a> data. The City of Boise  is hosting the app, but is not responsible for its content. Read our <a href="https://opendata.cityofboise.org">full disclaimer</a>, <a href="http://treefortmusicfest.com/hackfort">learn more about Hackfort</a> and <a href="https://github.com/BoiseOpenData/hackfort-datefort">view the code on Github</a>.</p>
+                       
+
+
+                  <!-- <p>Datefort was developed during the Hackfort 2015 hackathon by indepedent coders, using <a href="//cityofboise.org">City of Boise</a> and <a href="//yelp.com" >Yelp</a> data.</p><br />
+                                <p>The City of Boise  is hosting the app, but is not responsible for its content. Read our <a href="https://opendata.cityofboise.org">full disclaimer</a>, <a href="http://treefortmusicfest.com/hackfort">learn more about Hackfort</a> and <a href="https://github.com/BoiseOpenData/hackfort-datefort">view the code on Github</a>.</p>-->
+
+                        
+                        
+                        
+                       <!--Second tooltip-->
+                    <!--    <a href="#" class="tooltip">
+                            <img src="/tooltip/css-tooltip-image.gif" />
+                            <span>
+                                <img class="callout" src="cssttp/callout.gif" />
+                                <img src="/tooltip/src/tooltips-cd2.jpg" style="float:right;" />
+                                <strong>CSS only Tooltip</strong><br />
+                                Pure CSS popup tooltips with clean semantic XHTML.
+                            </span>
+                        </a>
+-->
+
+                  
                    
-                </div>
+               
 
 				<div id="map-canvas"></div>
 			</div>
-
-			
 			
 		</body>
 </html>
